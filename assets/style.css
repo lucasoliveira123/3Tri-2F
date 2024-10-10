@@ -8,8 +8,15 @@
     padding: 0;
 }
 
+;:root{
+    --cor-de-texto: #DBE4EF;
+    --cor-cartao-frente: #144480;
+    --cor-cartao-verso: #00F4BF;
+
+}
 
 body{
+    background: url(img/bg-desktop.webp);
     background-color: bisque;
     font-family: 'Bai Jamjuree', sans-serif;
 }
@@ -44,6 +51,8 @@ footer p{
 .cartao-conteudo{
     text-align: center;
     height: 100%;
+    height: 100%;
+    padding: 20px;
 }
 
 .cartao-conteudo h3{
@@ -57,4 +66,10 @@ footer p{
     border-radius: 0.6rem
     
     
+}
+
+
+.cartao-conteudo-pergunta{
+    color: var(--cor-de-texto);
+    font-weight: 500;
 }
