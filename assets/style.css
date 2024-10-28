@@ -84,10 +84,14 @@ footer p{
     font-weight: 500;
 }
 
+.cartao:hover .cartao-conteudo{
+    transform: rotateY(180deg);
+}
 
 .cartao-conteudo-pergunta,
 .cartao-conteudo-resposta{
     backface-visibility: hidden;
+    margin: 1rem;
 }
 
 .cartao-conteudo-resposta{
